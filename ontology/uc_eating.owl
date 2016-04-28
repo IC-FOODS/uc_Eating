@@ -72,6 +72,9 @@
         <Class IRI="#consumption_behavior"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#consumption_process"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#drinking_behavior"/>
     </Declaration>
     <Declaration>
@@ -210,7 +213,13 @@
         <Class IRI="#eating_influenced_by_school_environment"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#eating_influenced_by_senses"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#eating_influenced_by_slow_metabolic_rate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#eating_influenced_by_smell"/>
     </Declaration>
     <Declaration>
         <Class IRI="#eating_influenced_by_social_environment"/>
@@ -219,10 +228,19 @@
         <Class IRI="#eating_influenced_by_socio-cultural_stimuli"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#eating_influenced_by_sounds"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#eating_influenced_by_stress"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#eating_influenced_by_touch"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#eating_influenced_by_transportation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#eating_influenced_by_visual_perception"/>
     </Declaration>
     <Declaration>
         <Class IRI="#eating_influenced_by_work_environment"/>
@@ -393,7 +411,10 @@
         <Class IRI="#self-regulated_eating_behavior"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#sensory_process"/>
+        <Class IRI="#sipping_behavior"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#slurp_behavior"/>
     </Declaration>
     <Declaration>
         <Class IRI="#snacking_behavior"/>
@@ -489,6 +510,10 @@
         <Class IRI="#behavior_process"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#consumption_process"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0008150"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#drinking_behavior"/>
         <Class IRI="#feeding_behavior"/>
     </SubClassOf>
@@ -673,8 +698,16 @@
         <Class IRI="#eating_influenced_by_food_environment"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#eating_influenced_by_senses"/>
+        <Class IRI="#eating_influenced_by_external_stimuli"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#eating_influenced_by_slow_metabolic_rate"/>
         <Class IRI="#eating_influenced_by_metabolic_rates"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#eating_influenced_by_smell"/>
+        <Class IRI="#eating_influenced_by_senses"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#eating_influenced_by_social_environment"/>
@@ -685,12 +718,24 @@
         <Class IRI="#eating_influenced_by_external_stimuli"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#eating_influenced_by_sounds"/>
+        <Class IRI="#eating_influenced_by_senses"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#eating_influenced_by_stress"/>
         <Class IRI="#eating_influenced_by_emotions"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#eating_influenced_by_touch"/>
+        <Class IRI="#eating_influenced_by_senses"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#eating_influenced_by_transportation"/>
         <Class IRI="#eating_influenced_by_accessibility"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#eating_influenced_by_visual_perception"/>
+        <Class IRI="#eating_influenced_by_senses"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#eating_influenced_by_work_environment"/>
@@ -846,7 +891,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#mechanical_food_breakdown"/>
-        <Class IRI="#sensory_process"/>
+        <Class IRI="#consumption_process"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#mid-day_snacking_behavior"/>
@@ -917,8 +962,12 @@
         <Class IRI="#regulated_eating_behavior"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#sensory_process"/>
-        <Class IRI="http://purl.obolibrary.org/obo/GO_0008150"/>
+        <Class IRI="#sipping_behavior"/>
+        <Class IRI="#mechanical_food_breakdown"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#slurp_behavior"/>
+        <Class IRI="#mechanical_food_breakdown"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#snacking_behavior"/>
