@@ -11,25 +11,37 @@
 
 <Ontology xmlns="http://www.w3.org/2002/07/owl#"
      xml:base="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
-     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      ontologyIRI="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11">
     <Prefix name="" IRI="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
-    <Import>file:/imports/ro_import.owl</Import>
     <Import>file:/imports/bfo_import.owl</Import>
-    <Import>file:/imports/uberon_import.owl</Import>
     <Import>file:/imports/envo_import.owl</Import>
+    <Import>file:/imports/ro_import.owl</Import>
+    <Import>file:/imports/uberon_import.owl</Import>
     <Import>file:/imports/chebi_import.owl</Import>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/kimi/ontologies/2016/3/eating_concomitant_with_other_behavior"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Eating_influenced_by_activity/exertion_levels"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Eating_influenced_by_availability/eating_influenced_by_supply"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Eating_influenced_by_body_size/type"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#acquisition_process"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#after_school_snacking_behavior"/>
     </Declaration>
     <Declaration>
@@ -37,6 +49,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#anniversary_celebratory_meal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#aquaculture_process"/>
     </Declaration>
     <Declaration>
         <Class IRI="#ating_influenced_by_craving"/>
@@ -52,6 +67,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#chewing_behavior"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#chewing_process"/>
     </Declaration>
     <Declaration>
         <Class IRI="#compensate_for_other_foods_consumed"/>
@@ -73,6 +91,12 @@
     </Declaration>
     <Declaration>
         <Class IRI="#consumption_process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cultivation_process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#digestion_process"/>
     </Declaration>
     <Declaration>
         <Class IRI="#drinking_behavior"/>
@@ -309,13 +333,34 @@
         <Class IRI="#familial_meal"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#farming_process"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#feasting_meal_behavior"/>
     </Declaration>
     <Declaration>
         <Class IRI="#feeding_behavior"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#fishing_process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#food_acquisition_process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#food_production_process"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#friend_social_gathering_meal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#gardening_process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#gathering_process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#gleaning_process"/>
     </Declaration>
     <Declaration>
         <Class IRI="#graduation_celebratory_meal"/>
@@ -336,7 +381,13 @@
         <Class IRI="#hunger_oriented_eating_behavior"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#hunting_process"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#image_oriented_eating_behavior"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#involuntary_food_consumption_process"/>
     </Declaration>
     <Declaration>
         <Class IRI="#jane"/>
@@ -355,9 +406,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="#meal_eating_behavior"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#mechanical_food_breakdown"/>
     </Declaration>
     <Declaration>
         <Class IRI="#mid-day_snacking_behavior"/>
@@ -387,6 +435,9 @@
         <Class IRI="#post-workout__meal_behavior"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#production_process"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#promotion_celebratory_meal"/>
     </Declaration>
     <Declaration>
@@ -409,6 +460,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#self-regulated_eating_behavior"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#shopping_process"/>
     </Declaration>
     <Declaration>
         <Class IRI="#sipping_behavior"/>
@@ -438,20 +492,30 @@
         <Class IRI="#vegetarian_eating_behavior"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#voluntary_food_consumption_process"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#wedding_celebratory_meal"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Eating_influenced_by_activity/exertion_levels"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Eating_influenced_by_availability/eating_influenced_by_supply"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Eating_influenced_by_body_size/type"/>
     </Declaration>
     <SubClassOf>
         <Class IRI="http://www.semanticweb.org/kimi/ontologies/2016/3/eating_concomitant_with_other_behavior"/>
         <Class IRI="#eating_behavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Eating_influenced_by_activity/exertion_levels"/>
+        <Class IRI="#eating_influenced_by_appetite"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Eating_influenced_by_availability/eating_influenced_by_supply"/>
+        <Class IRI="#eating_influenced_by_accessibility"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Eating_influenced_by_body_size/type"/>
+        <Class IRI="#eating_influenced_by_appetite"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#acquisition_process"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000015"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#after_school_snacking_behavior"/>
@@ -464,6 +528,10 @@
     <SubClassOf>
         <Class IRI="#anniversary_celebratory_meal"/>
         <Class IRI="#celebratory_meal_behavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#aquaculture_process"/>
+        <Class IRI="#food_production_process"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ating_influenced_by_craving"/>
@@ -483,7 +551,15 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#chewing_behavior"/>
-        <Class IRI="#mechanical_food_breakdown"/>
+        <Class IRI="#eating_behavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#chewing_process"/>
+        <Class IRI="#digestion_process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#chewing_process"/>
+        <Class IRI="#voluntary_food_consumption_process"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#compensate_for_other_foods_consumed"/>
@@ -511,7 +587,15 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#consumption_process"/>
-        <Class IRI="http://purl.obolibrary.org/obo/GO_0008150"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000015"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cultivation_process"/>
+        <Class IRI="#food_production_process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#digestion_process"/>
+        <Class IRI="#consumption_process"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#drinking_behavior"/>
@@ -826,6 +910,10 @@
         <Class IRI="#soical_meal_behavior"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#farming_process"/>
+        <Class IRI="#cultivation_process"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#feasting_meal_behavior"/>
         <Class IRI="#meal_eating_behavior"/>
     </SubClassOf>
@@ -834,8 +922,32 @@
         <Class IRI="#consumption_behavior"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#fishing_process"/>
+        <Class IRI="#food_acquisition_process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#food_acquisition_process"/>
+        <Class IRI="#acquisition_process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#food_production_process"/>
+        <Class IRI="#production_process"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#friend_social_gathering_meal"/>
         <Class IRI="#soical_meal_behavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gardening_process"/>
+        <Class IRI="#cultivation_process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gathering_process"/>
+        <Class IRI="#food_acquisition_process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gleaning_process"/>
+        <Class IRI="#food_acquisition_process"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#graduation_celebratory_meal"/>
@@ -862,8 +974,16 @@
         <Class IRI="#health-oriented_eating_behavior"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#hunting_process"/>
+        <Class IRI="#food_acquisition_process"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#image_oriented_eating_behavior"/>
         <Class IRI="#regulated_eating_behavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#involuntary_food_consumption_process"/>
+        <Class IRI="#consumption_process"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#jane"/>
@@ -883,15 +1003,11 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#licking_behavior"/>
-        <Class IRI="#mechanical_food_breakdown"/>
+        <Class IRI="#eating_behavior"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#meal_eating_behavior"/>
         <Class IRI="#eating_behavior"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#mechanical_food_breakdown"/>
-        <Class IRI="#consumption_process"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#mid-day_snacking_behavior"/>
@@ -930,6 +1046,10 @@
         <Class IRI="#meal_eating_behavior"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#production_process"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000015"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#promotion_celebratory_meal"/>
         <Class IRI="#celebratory_meal_behavior"/>
     </SubClassOf>
@@ -962,12 +1082,16 @@
         <Class IRI="#regulated_eating_behavior"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#shopping_process"/>
+        <Class IRI="#food_acquisition_process"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#sipping_behavior"/>
-        <Class IRI="#mechanical_food_breakdown"/>
+        <Class IRI="#eating_behavior"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#slurp_behavior"/>
-        <Class IRI="#mechanical_food_breakdown"/>
+        <Class IRI="#eating_behavior"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#snacking_behavior"/>
@@ -983,11 +1107,11 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#suckling_behavior"/>
-        <Class IRI="#mechanical_food_breakdown"/>
+        <Class IRI="#eating_behavior"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#swallowing_behavior"/>
-        <Class IRI="#mechanical_food_breakdown"/>
+        <Class IRI="#eating_behavior"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#vegan_eating_behavior"/>
@@ -998,24 +1122,35 @@
         <Class IRI="#ethically_regulated_eating_behavior"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#voluntary_food_consumption_process"/>
+        <Class IRI="#consumption_process"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#wedding_celebratory_meal"/>
         <Class IRI="#celebratory_meal_behavior"/>
     </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Eating_influenced_by_activity/exertion_levels"/>
-        <Class IRI="#eating_influenced_by_appetite"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Eating_influenced_by_availability/eating_influenced_by_supply"/>
-        <Class IRI="#eating_influenced_by_accessibility"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Eating_influenced_by_body_size/type"/>
-        <Class IRI="#eating_influenced_by_appetite"/>
-    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#aquaculture_process"/>
+        <Class IRI="#cultivation_process"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#farming_process"/>
+        <Class IRI="#gardening_process"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#fishing_process"/>
+        <Class IRI="#gathering_process"/>
+        <Class IRI="#gleaning_process"/>
+        <Class IRI="#hunting_process"/>
+        <Class IRI="#shopping_process"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#involuntary_food_consumption_process"/>
+        <Class IRI="#voluntary_food_consumption_process"/>
+    </DisjointClasses>
 </Ontology>
 
 
 
-<!-- Generated by the OWL API (version 3.5.1) http://owlapi.sourceforge.net -->
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
 
