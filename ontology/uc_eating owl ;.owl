@@ -1,0 +1,1597 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11">
+    <Prefix name="" IRI="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Import>file:/imports/ro_import.owl</Import>
+    <Import>file:/imports/bfo_import.owl</Import>
+    <Import>file:/imports/uberon_import.owl</Import>
+    <Import>file:/imports/envo_import.owl</Import>
+    <Import>file:/imports/chebi_import.owl</Import>
+    <Declaration>
+        <Class IRI="#health-oriented_eating_behavior"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#age"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#eating_influenced_by_moderate_metabolic_rate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#socio-cultural_feast_meals"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#holiday_meal_behavior"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#snacking_behavior"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#eating_influenced_by_geography"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#breastfeeding_influenced_by_environment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#eating_influenced_by_body_type_ectomorph"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#swallowing_behavior"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#eating_influenced_by_emotions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#halal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#race"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#religous_holiday_meals"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#eating_influenced_by_gender"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#eating_influenced_by_jealousy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#breastfeeding_influenced_by_time"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#jane"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#consumption_behavior"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#breastfeeding_influenced_by_age"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#eating_influenced_by_gratitude"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#compensate_for_other_foods_consumed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#agricultrual_feast_meals"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#eating_while_biking_behavior"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#breastfeeding_influenced_by_work_schedule"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#utensil_enhanved_recording"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#late_night_snacking_behavior"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#breastfeeding_influenced_external_stimuli"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#eating_influenced_by_economics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#breastfeeding_influenced_by_convenience"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#breastfeeding_influenced_by_family_support"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#wedding_celebratory_meal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#eating_influenced_by_frustration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#eating_influenced_by_social_environment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#lacto-vegetarian"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#eating_influenced_by_euphoria"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#measurment_method_data_types"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#vegetarian_eating_behavior"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#eating_while_working_behavior"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#eating_influenced_by_addiction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#caffeine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/kimi/ontologies/2016/3/eating_concomitant_with_other_behavior"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#eating_influenced_by_regulation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#food_production_process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#farming_process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#image"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#vegan_eating_behavior"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cruciferous_vegetables"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#involuntary_food_consumption"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#eating_influenced_by_peer_pressure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#religion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#eating_influenced_by_boredom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#eating_while_crying_behavior"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#voluntary_food_consumption"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#24_hour_dietary_recall"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#breastfeeding_influenced_by_chemotherapy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#religous_meal_behavior"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#eating_while_walking_behavior"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#breastfeeding_influenced_by_radiation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#eating_while_talking_behavior"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#breastfeeding_influenced_by_lack_of_milk"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#eating_influenced_by_culture"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#celebratory_meal_behavior"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#anectodal_food_avoidance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#historical_recall"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#breastfeeding_influenced_by_equipment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#internal_camera"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#eating_influenced_by_socio-cultural_stimuli"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#breastfeeding_influenced_by_culture"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#eating_influenced_by_disease_state"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#breastfeeding_influenced_by_separation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#eating_influenced_by_slow_metabolic_rate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cultivation_process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#mechanical_food_digestion_process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#eating_influenced_by_contempt"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#eating_while_seated_behavior"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#description"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#wearable_video"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#eating_influenced_by_regret"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#eating_influenced_by_body_type_endomorph"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Eating_influenced_by_body_size/type"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#eating_influenced_by_loneliness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#gathering_process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#mid-day_snacking_behavior"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Eating_influenced_by_activity/exertion_levels"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#allowability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#edenic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#acquisition_process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#breath_monitor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#physiologically_self-regulated_eating_behavior"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#breastfeeding_influenced_by_pain"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#physiological_recording"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#compensate_for_stress"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#anniversary_celebratory_meal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#eating_influenced_by_fear"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#breastfeeding_influenced_by_history_of_abuse"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#meal_eating_behavior"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#eating_while_bathing_behavior"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#eating_influenced_by_chronic_illness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#eating_influenced_by_fast_metabolic_rate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#eating_influenced_by_anxiety"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#social"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#morning_snacking_behavior"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#auto_device_recording"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sounds"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#economic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#geographic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#health_promoting_meal_behavior"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#drinking_behavior"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#breastfeeding_influenced_by_internal_stimuli"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pescaterian_eating_behavior"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#religiously_regulated_eating_behavior"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#eating_while_lounging_behavior"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#familial_meal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#breastfeeding_behavior"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#breastfeeding_influenced_by_mastitis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#eating_influenced_by_happiness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Eating_influenced_by_availability/eating_influenced_by_supply"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#plant-based_eating_behavior"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#eating_while_running_behavior"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#consumption_process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#video"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#eating_influenced_by_stress"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#chewing_behavior"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#breastfeeding_influenced_by_activity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#self-regulated_eating_behavior"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#eating_influenced_by_appetite"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#food_acquisition_process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#eating_while_yelling_behavior"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#compensate_for_sleep"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#chemical_food_digestion_process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#suckling_behavior"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#hunting_process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#realtime_logging"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#performance_regulated_eating_behavior"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#image_oriented_eating_behavior"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#compensatory_meal_behavior"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#personal_occasion_celebratory_meal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#psychological_eating_behavior"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#jaw_sensor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#eating_influenced_by_sadness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#time_of_day"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#aquaculture_process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#graduation_celebratory_meal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#jaw_sound_recording_device"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#digestion_process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#feeding_behavior"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#calories"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#eating_influenced_by_accessibility"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#eating_influenced_by_metabolic_rates"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#licking_behavior"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#eating_influenced_by_home_environment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#after_school_snacking_behavior"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#types"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#eating_while_reading_behavior"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#food_consumption_measurment_methods"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#realtime_monitoring"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#eating_influenced_by_individual_genetics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#feasting_meal_behavior"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#breastfeeding_influenced_by_place"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#eating_while_driving_behavior"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#alcohol"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#video_monitor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#eating_influenced_by_transportation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#eating_influenced_by_familial_pressure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#eating_influenced_by_guilt"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#eating_influenced_by_hereditary_illness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#electronic/paper_diary"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#gardening_process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#eating_behavior"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#eating_while_defecating_behavior"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#environmental_video"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#eating_while_laying_behavior"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#friend_social_gathering_meal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#non-self_regulated_eating_behavior"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#hunger_oriented_eating_behavior"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#breastfeeding_influenced_by_metabolic/disease_state"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ethically_regulated_eating_behavior"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ating_influenced_by_craving"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#eating_influenced_by_school_environment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#regulated_eating_behavior"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#dairy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#behavior_process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#breastfeeding_influenced_by_guilt"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#eating_influenced_by_media"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#spectrographic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#eating_influenced_by_embarrassment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#slurp_behavior"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#promotion_celebratory_meal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#fishing_process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#blood_sugar_sensor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#eating_influenced_by_internal_stimuli"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#eating_while_laughing_behavior"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#shopping_process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#length_of_time_of_behavior"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#chewing_process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#eating_while_studying_behavior"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#human_logs"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pictured_enhanced_log"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#spicy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#eating_influenced_by_depression"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#eating_influenced_by_body_type_mesomorph"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#eating_influenced_by_food_environment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#post-workout__meal_behavior"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#external_camera"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#compensate_for_physical_activity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#breastfeeding_influenced_by_access"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#birthday_celebratory_meal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#kosher"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sipping_behavior"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#soical_meal_behavior"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#eating_influenced_by_external_stimuli"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#eating_influenced_by_acute_illness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#eating_influenced_by_anger"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#eating_while_swimming_behavior"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#production_process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#breastfeeding_influenced_by_FIL"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#eating_influenced_by_work_environment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#secular_holiday_meals"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#gleaning_process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#food_frequency_questionnaire"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#breastfeeding_influenced_by_hypoplasia_of_mammary_gland"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#eating_while_exercising_behavior"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#weight"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/kimi/ontologies/2016/3/eating_concomitant_with_other_behavior"/>
+        <Class IRI="#eating_behavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#acquisition_process"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000015"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#after_school_snacking_behavior"/>
+        <Class IRI="#snacking_behavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#age"/>
+        <Class IRI="#allowability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#agricultrual_feast_meals"/>
+        <Class IRI="#feasting_meal_behavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#alcohol"/>
+        <Class IRI="#anectodal_food_avoidance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#allowability"/>
+        <Class IRI="#breastfeeding_influenced_by_access"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#anectodal_food_avoidance"/>
+        <Class IRI="#breastfeeding_behavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#anniversary_celebratory_meal"/>
+        <Class IRI="#celebratory_meal_behavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#aquaculture_process"/>
+        <Class IRI="#food_production_process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ating_influenced_by_craving"/>
+        <Class IRI="#eating_influenced_by_emotions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#auto_device_recording"/>
+        <Class IRI="#food_consumption_measurment_methods"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#behavior_process"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0008150"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#birthday_celebratory_meal"/>
+        <Class IRI="#celebratory_meal_behavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#blood_sugar_sensor"/>
+        <Class IRI="#physiological_recording"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#breastfeeding_behavior"/>
+        <Class IRI="#eating_behavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#breastfeeding_influenced_by_FIL"/>
+        <Class IRI="#breastfeeding_influenced_by_internal_stimuli"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#breastfeeding_influenced_by_access"/>
+        <Class IRI="#breastfeeding_influenced_external_stimuli"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#breastfeeding_influenced_by_activity"/>
+        <Class IRI="#breastfeeding_influenced_by_internal_stimuli"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#breastfeeding_influenced_by_age"/>
+        <Class IRI="#breastfeeding_influenced_by_internal_stimuli"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#breastfeeding_influenced_by_chemotherapy"/>
+        <Class IRI="#breastfeeding_influenced_external_stimuli"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#breastfeeding_influenced_by_convenience"/>
+        <Class IRI="#breastfeeding_influenced_external_stimuli"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#breastfeeding_influenced_by_culture"/>
+        <Class IRI="#breastfeeding_influenced_external_stimuli"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#breastfeeding_influenced_by_environment"/>
+        <Class IRI="#breastfeeding_influenced_external_stimuli"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#breastfeeding_influenced_by_equipment"/>
+        <Class IRI="#breastfeeding_influenced_external_stimuli"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#breastfeeding_influenced_by_family_support"/>
+        <Class IRI="#breastfeeding_influenced_external_stimuli"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#breastfeeding_influenced_by_guilt"/>
+        <Class IRI="#breastfeeding_influenced_by_internal_stimuli"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#breastfeeding_influenced_by_history_of_abuse"/>
+        <Class IRI="#breastfeeding_influenced_by_internal_stimuli"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#breastfeeding_influenced_by_hypoplasia_of_mammary_gland"/>
+        <Class IRI="#breastfeeding_influenced_by_internal_stimuli"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#breastfeeding_influenced_by_internal_stimuli"/>
+        <Class IRI="#breastfeeding_behavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#breastfeeding_influenced_by_lack_of_milk"/>
+        <Class IRI="#breastfeeding_influenced_by_internal_stimuli"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#breastfeeding_influenced_by_mastitis"/>
+        <Class IRI="#breastfeeding_influenced_by_internal_stimuli"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#breastfeeding_influenced_by_pain"/>
+        <Class IRI="#breastfeeding_influenced_by_internal_stimuli"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#breastfeeding_influenced_by_place"/>
+        <Class IRI="#breastfeeding_influenced_external_stimuli"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#breastfeeding_influenced_by_radiation"/>
+        <Class IRI="#breastfeeding_influenced_external_stimuli"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#breastfeeding_influenced_by_separation"/>
+        <Class IRI="#breastfeeding_influenced_external_stimuli"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#breastfeeding_influenced_by_time"/>
+        <Class IRI="#breastfeeding_influenced_external_stimuli"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#breastfeeding_influenced_by_work_schedule"/>
+        <Class IRI="#breastfeeding_influenced_external_stimuli"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#breastfeeding_influenced_external_stimuli"/>
+        <Class IRI="#breastfeeding_behavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#breath_monitor"/>
+        <Class IRI="#physiological_recording"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#caffeine"/>
+        <Class IRI="#anectodal_food_avoidance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#calories"/>
+        <Class IRI="#human_logs"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#celebratory_meal_behavior"/>
+        <Class IRI="#meal_eating_behavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#chemical_food_digestion_process"/>
+        <Class IRI="#digestion_process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#chewing_behavior"/>
+        <Class IRI="#eating_behavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#chewing_process"/>
+        <Class IRI="#mechanical_food_digestion_process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#compensate_for_other_foods_consumed"/>
+        <Class IRI="#compensatory_meal_behavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#compensate_for_physical_activity"/>
+        <Class IRI="#compensatory_meal_behavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#compensate_for_sleep"/>
+        <Class IRI="#compensatory_meal_behavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#compensate_for_stress"/>
+        <Class IRI="#compensatory_meal_behavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#compensatory_meal_behavior"/>
+        <Class IRI="#meal_eating_behavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#consumption_behavior"/>
+        <Class IRI="#behavior_process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#consumption_process"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000015"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cruciferous_vegetables"/>
+        <Class IRI="#anectodal_food_avoidance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cultivation_process"/>
+        <Class IRI="#food_production_process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#dairy"/>
+        <Class IRI="#anectodal_food_avoidance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#description"/>
+        <Class IRI="#human_logs"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#digestion_process"/>
+        <Class IRI="#consumption_process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#drinking_behavior"/>
+        <Class IRI="#eating_behavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#eating_behavior"/>
+        <Class IRI="#feeding_behavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#eating_influenced_by_accessibility"/>
+        <Class IRI="#eating_influenced_by_external_stimuli"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#eating_influenced_by_acute_illness"/>
+        <Class IRI="#eating_influenced_by_disease_state"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#eating_influenced_by_addiction"/>
+        <Class IRI="#eating_influenced_by_internal_stimuli"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#eating_influenced_by_anger"/>
+        <Class IRI="#eating_influenced_by_emotions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#eating_influenced_by_anxiety"/>
+        <Class IRI="#eating_influenced_by_emotions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#eating_influenced_by_appetite"/>
+        <Class IRI="#eating_influenced_by_internal_stimuli"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#eating_influenced_by_body_type_ectomorph"/>
+        <Class IRI="#Eating_influenced_by_body_size/type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#eating_influenced_by_body_type_endomorph"/>
+        <Class IRI="#Eating_influenced_by_body_size/type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#eating_influenced_by_body_type_mesomorph"/>
+        <Class IRI="#Eating_influenced_by_body_size/type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#eating_influenced_by_boredom"/>
+        <Class IRI="#eating_influenced_by_emotions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#eating_influenced_by_chronic_illness"/>
+        <Class IRI="#eating_influenced_by_disease_state"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#eating_influenced_by_contempt"/>
+        <Class IRI="#eating_influenced_by_emotions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#eating_influenced_by_culture"/>
+        <Class IRI="#eating_influenced_by_socio-cultural_stimuli"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#eating_influenced_by_depression"/>
+        <Class IRI="#eating_influenced_by_emotions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#eating_influenced_by_disease_state"/>
+        <Class IRI="#eating_influenced_by_appetite"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#eating_influenced_by_economics"/>
+        <Class IRI="#eating_influenced_by_accessibility"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#eating_influenced_by_embarrassment"/>
+        <Class IRI="#eating_influenced_by_emotions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#eating_influenced_by_emotions"/>
+        <Class IRI="#eating_influenced_by_internal_stimuli"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#eating_influenced_by_euphoria"/>
+        <Class IRI="#eating_influenced_by_emotions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#eating_influenced_by_external_stimuli"/>
+        <Class IRI="#eating_behavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#eating_influenced_by_familial_pressure"/>
+        <Class IRI="#eating_influenced_by_external_stimuli"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#eating_influenced_by_fast_metabolic_rate"/>
+        <Class IRI="#eating_influenced_by_metabolic_rates"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#eating_influenced_by_fear"/>
+        <Class IRI="#eating_influenced_by_emotions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#eating_influenced_by_food_environment"/>
+        <Class IRI="#eating_influenced_by_external_stimuli"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#eating_influenced_by_frustration"/>
+        <Class IRI="#eating_influenced_by_emotions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#eating_influenced_by_gender"/>
+        <Class IRI="#eating_influenced_by_appetite"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#eating_influenced_by_geography"/>
+        <Class IRI="#eating_influenced_by_external_stimuli"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#eating_influenced_by_gratitude"/>
+        <Class IRI="#eating_influenced_by_emotions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#eating_influenced_by_guilt"/>
+        <Class IRI="#eating_influenced_by_emotions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#eating_influenced_by_happiness"/>
+        <Class IRI="#eating_influenced_by_emotions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#eating_influenced_by_hereditary_illness"/>
+        <Class IRI="#eating_influenced_by_disease_state"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#eating_influenced_by_home_environment"/>
+        <Class IRI="#eating_influenced_by_food_environment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#eating_influenced_by_individual_genetics"/>
+        <Class IRI="#eating_influenced_by_appetite"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#eating_influenced_by_internal_stimuli"/>
+        <Class IRI="#eating_behavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#eating_influenced_by_jealousy"/>
+        <Class IRI="#eating_influenced_by_emotions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#eating_influenced_by_loneliness"/>
+        <Class IRI="#eating_influenced_by_emotions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#eating_influenced_by_media"/>
+        <Class IRI="#eating_influenced_by_external_stimuli"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#eating_influenced_by_metabolic_rates"/>
+        <Class IRI="#eating_influenced_by_appetite"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#eating_influenced_by_moderate_metabolic_rate"/>
+        <Class IRI="#eating_influenced_by_metabolic_rates"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#eating_influenced_by_peer_pressure"/>
+        <Class IRI="#eating_influenced_by_socio-cultural_stimuli"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#eating_influenced_by_regret"/>
+        <Class IRI="#eating_influenced_by_emotions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#eating_influenced_by_regulation"/>
+        <Class IRI="#eating_influenced_by_external_stimuli"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#eating_influenced_by_sadness"/>
+        <Class IRI="#eating_influenced_by_emotions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#eating_influenced_by_school_environment"/>
+        <Class IRI="#eating_influenced_by_food_environment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#eating_influenced_by_slow_metabolic_rate"/>
+        <Class IRI="#eating_influenced_by_metabolic_rates"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#eating_influenced_by_social_environment"/>
+        <Class IRI="#eating_influenced_by_food_environment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#eating_influenced_by_socio-cultural_stimuli"/>
+        <Class IRI="#eating_influenced_by_external_stimuli"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#eating_influenced_by_stress"/>
+        <Class IRI="#eating_influenced_by_emotions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#eating_influenced_by_transportation"/>
+        <Class IRI="#eating_influenced_by_accessibility"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#eating_influenced_by_work_environment"/>
+        <Class IRI="#eating_influenced_by_food_environment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#eating_while_bathing_behavior"/>
+        <Class IRI="http://www.semanticweb.org/kimi/ontologies/2016/3/eating_concomitant_with_other_behavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#eating_while_biking_behavior"/>
+        <Class IRI="http://www.semanticweb.org/kimi/ontologies/2016/3/eating_concomitant_with_other_behavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#eating_while_crying_behavior"/>
+        <Class IRI="http://www.semanticweb.org/kimi/ontologies/2016/3/eating_concomitant_with_other_behavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#eating_while_defecating_behavior"/>
+        <Class IRI="http://www.semanticweb.org/kimi/ontologies/2016/3/eating_concomitant_with_other_behavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#eating_while_driving_behavior"/>
+        <Class IRI="http://www.semanticweb.org/kimi/ontologies/2016/3/eating_concomitant_with_other_behavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#eating_while_exercising_behavior"/>
+        <Class IRI="http://www.semanticweb.org/kimi/ontologies/2016/3/eating_concomitant_with_other_behavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#eating_while_laughing_behavior"/>
+        <Class IRI="http://www.semanticweb.org/kimi/ontologies/2016/3/eating_concomitant_with_other_behavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#eating_while_laying_behavior"/>
+        <Class IRI="http://www.semanticweb.org/kimi/ontologies/2016/3/eating_concomitant_with_other_behavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#eating_while_lounging_behavior"/>
+        <Class IRI="http://www.semanticweb.org/kimi/ontologies/2016/3/eating_concomitant_with_other_behavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#eating_while_reading_behavior"/>
+        <Class IRI="http://www.semanticweb.org/kimi/ontologies/2016/3/eating_concomitant_with_other_behavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#eating_while_running_behavior"/>
+        <Class IRI="http://www.semanticweb.org/kimi/ontologies/2016/3/eating_concomitant_with_other_behavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#eating_while_seated_behavior"/>
+        <Class IRI="http://www.semanticweb.org/kimi/ontologies/2016/3/eating_concomitant_with_other_behavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#eating_while_studying_behavior"/>
+        <Class IRI="http://www.semanticweb.org/kimi/ontologies/2016/3/eating_concomitant_with_other_behavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#eating_while_swimming_behavior"/>
+        <Class IRI="http://www.semanticweb.org/kimi/ontologies/2016/3/eating_concomitant_with_other_behavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#eating_while_talking_behavior"/>
+        <Class IRI="http://www.semanticweb.org/kimi/ontologies/2016/3/eating_concomitant_with_other_behavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#eating_while_walking_behavior"/>
+        <Class IRI="http://www.semanticweb.org/kimi/ontologies/2016/3/eating_concomitant_with_other_behavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#eating_while_working_behavior"/>
+        <Class IRI="http://www.semanticweb.org/kimi/ontologies/2016/3/eating_concomitant_with_other_behavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#eating_while_yelling_behavior"/>
+        <Class IRI="http://www.semanticweb.org/kimi/ontologies/2016/3/eating_concomitant_with_other_behavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#economic"/>
+        <Class IRI="#breastfeeding_influenced_by_access"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#edenic"/>
+        <Class IRI="#religiously_regulated_eating_behavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#environmental_video"/>
+        <Class IRI="#external_camera"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ethically_regulated_eating_behavior"/>
+        <Class IRI="#regulated_eating_behavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#external_camera"/>
+        <Class IRI="#video_monitor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#familial_meal"/>
+        <Class IRI="#soical_meal_behavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#farming_process"/>
+        <Class IRI="#cultivation_process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#feasting_meal_behavior"/>
+        <Class IRI="#meal_eating_behavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#feeding_behavior"/>
+        <Class IRI="#consumption_behavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#fishing_process"/>
+        <Class IRI="#food_acquisition_process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#food_acquisition_process"/>
+        <Class IRI="#acquisition_process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#food_consumption_measurment_methods"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000015"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#food_frequency_questionnaire"/>
+        <Class IRI="#historical_recall"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#food_production_process"/>
+        <Class IRI="#production_process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#friend_social_gathering_meal"/>
+        <Class IRI="#soical_meal_behavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gardening_process"/>
+        <Class IRI="#farming_process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gathering_process"/>
+        <Class IRI="#food_acquisition_process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#geographic"/>
+        <Class IRI="#breastfeeding_influenced_by_access"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gleaning_process"/>
+        <Class IRI="#food_acquisition_process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#graduation_celebratory_meal"/>
+        <Class IRI="#celebratory_meal_behavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#halal"/>
+        <Class IRI="#religiously_regulated_eating_behavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#health-oriented_eating_behavior"/>
+        <Class IRI="#regulated_eating_behavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#health_promoting_meal_behavior"/>
+        <Class IRI="#meal_eating_behavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#historical_recall"/>
+        <Class IRI="#food_consumption_measurment_methods"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#holiday_meal_behavior"/>
+        <Class IRI="#meal_eating_behavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#human_logs"/>
+        <Class IRI="#measurment_method_data_types"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#hunger_oriented_eating_behavior"/>
+        <Class IRI="#health-oriented_eating_behavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#hunting_process"/>
+        <Class IRI="#food_acquisition_process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#image"/>
+        <Class IRI="#measurment_method_data_types"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#image_oriented_eating_behavior"/>
+        <Class IRI="#regulated_eating_behavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#internal_camera"/>
+        <Class IRI="#video_monitor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#involuntary_food_consumption"/>
+        <Class IRI="#consumption_process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#jane"/>
+        <Class IRI="#religiously_regulated_eating_behavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#jaw_sensor"/>
+        <Class IRI="#physiological_recording"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#jaw_sound_recording_device"/>
+        <Class IRI="#sounds"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#kosher"/>
+        <Class IRI="#religiously_regulated_eating_behavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#lacto-vegetarian"/>
+        <Class IRI="#religiously_regulated_eating_behavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#late_night_snacking_behavior"/>
+        <Class IRI="#snacking_behavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#length_of_time_of_behavior"/>
+        <Class IRI="#measurment_method_data_types"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#licking_behavior"/>
+        <Class IRI="#eating_behavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#meal_eating_behavior"/>
+        <Class IRI="#eating_behavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#measurment_method_data_types"/>
+        <Class IRI="#food_consumption_measurment_methods"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#mechanical_food_digestion_process"/>
+        <Class IRI="#digestion_process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#mid-day_snacking_behavior"/>
+        <Class IRI="#snacking_behavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#morning_snacking_behavior"/>
+        <Class IRI="#snacking_behavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#non-self_regulated_eating_behavior"/>
+        <Class IRI="#eating_influenced_by_external_stimuli"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#performance_regulated_eating_behavior"/>
+        <Class IRI="#regulated_eating_behavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#personal_occasion_celebratory_meal"/>
+        <Class IRI="#celebratory_meal_behavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pescaterian_eating_behavior"/>
+        <Class IRI="#ethically_regulated_eating_behavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#physiological_recording"/>
+        <Class IRI="#auto_device_recording"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#physiologically_self-regulated_eating_behavior"/>
+        <Class IRI="#self-regulated_eating_behavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pictured_enhanced_log"/>
+        <Class IRI="#realtime_logging"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#plant-based_eating_behavior"/>
+        <Class IRI="#ethically_regulated_eating_behavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#post-workout__meal_behavior"/>
+        <Class IRI="#meal_eating_behavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#production_process"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000015"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#promotion_celebratory_meal"/>
+        <Class IRI="#celebratory_meal_behavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#psychological_eating_behavior"/>
+        <Class IRI="#self-regulated_eating_behavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#race"/>
+        <Class IRI="#allowability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#realtime_logging"/>
+        <Class IRI="#food_consumption_measurment_methods"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#realtime_monitoring"/>
+        <Class IRI="#food_consumption_measurment_methods"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#regulated_eating_behavior"/>
+        <Class IRI="#eating_behavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#religion"/>
+        <Class IRI="#allowability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#religiously_regulated_eating_behavior"/>
+        <Class IRI="#regulated_eating_behavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#religous_holiday_meals"/>
+        <Class IRI="#holiday_meal_behavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#religous_meal_behavior"/>
+        <Class IRI="#meal_eating_behavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#secular_holiday_meals"/>
+        <Class IRI="#holiday_meal_behavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#self-regulated_eating_behavior"/>
+        <Class IRI="#regulated_eating_behavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#shopping_process"/>
+        <Class IRI="#food_acquisition_process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sipping_behavior"/>
+        <Class IRI="#eating_behavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#slurp_behavior"/>
+        <Class IRI="#eating_behavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#snacking_behavior"/>
+        <Class IRI="#eating_behavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#social"/>
+        <Class IRI="#breastfeeding_influenced_by_access"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#socio-cultural_feast_meals"/>
+        <Class IRI="#feasting_meal_behavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#soical_meal_behavior"/>
+        <Class IRI="#meal_eating_behavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sounds"/>
+        <Class IRI="#measurment_method_data_types"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#spectrographic"/>
+        <Class IRI="#measurment_method_data_types"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#spicy"/>
+        <Class IRI="#anectodal_food_avoidance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#suckling_behavior"/>
+        <Class IRI="#eating_behavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#swallowing_behavior"/>
+        <Class IRI="#eating_behavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#time_of_day"/>
+        <Class IRI="#measurment_method_data_types"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#types"/>
+        <Class IRI="#human_logs"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#utensil_enhanved_recording"/>
+        <Class IRI="#auto_device_recording"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#vegan_eating_behavior"/>
+        <Class IRI="#ethically_regulated_eating_behavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#vegetarian_eating_behavior"/>
+        <Class IRI="#ethically_regulated_eating_behavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#video"/>
+        <Class IRI="#measurment_method_data_types"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#video_monitor"/>
+        <Class IRI="#auto_device_recording"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#voluntary_food_consumption"/>
+        <Class IRI="#consumption_process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#voluntary_food_consumption"/>
+        <Class IRI="#voluntary_food_consumption"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#wearable_video"/>
+        <Class IRI="#external_camera"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#wedding_celebratory_meal"/>
+        <Class IRI="#celebratory_meal_behavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#weight"/>
+        <Class IRI="#human_logs"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#24_hour_dietary_recall"/>
+        <Class IRI="#historical_recall"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Eating_influenced_by_activity/exertion_levels"/>
+        <Class IRI="#eating_influenced_by_appetite"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Eating_influenced_by_availability/eating_influenced_by_supply"/>
+        <Class IRI="#eating_influenced_by_accessibility"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Eating_influenced_by_body_size/type"/>
+        <Class IRI="#eating_influenced_by_appetite"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#breastfeeding_influenced_by_metabolic/disease_state"/>
+        <Class IRI="#breastfeeding_influenced_by_internal_stimuli"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#electronic/paper_diary"/>
+        <Class IRI="#realtime_logging"/>
+    </SubClassOf>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.3.20160319-0906) https://github.com/owlcs/owlapi -->
+
