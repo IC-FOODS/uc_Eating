@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="User Entered Import Resolution" name="file:/imports/chebi_import.owl" uri="imports/chebi_import.owl"/>
+    <uri id="User Entered Import Resolution" name="file:/imports/envo_import.owl" uri="imports/envo_import.owl"/>
+    <uri id="User Entered Import Resolution" name="file:/imports/uberon_import.owl" uri="imports/uberon_import.obo"/>
+    <uri id="User Entered Import Resolution" name="file:/imports/bfo_import.owl" uri="imports/bfo_import.owl"/>
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1517381322149" name="/imports/bfo_import.owl" uri="imports/bfo_import.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1517381322149" name="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11" uri="uc_eating.owl"/>
+    </group>
+</catalog>
