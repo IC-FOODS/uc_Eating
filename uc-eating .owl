@@ -1,0 +1,2781 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/eating.owl#"
+     xml:base="http://purl.obolibrary.org/obo/eating.owl"
+     xmlns:obo2="http://www.geneontology.org/formats/oboInOwl#http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:cito="http://purl.org/spar/cito/"
+     xmlns:swrla="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#"
+     xmlns:doap="http://usefulinc.com/ns/doap#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:core1="http://purl.obolibrary.org/obo/core#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:iao="http://purl.obolibrary.org/obo/iao/"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:insect-anatomy="http://purl.obolibrary.org/obo/uberon/insect-anatomy#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:patterns="http://www.co-ode.org/patterns#"
+     xmlns:go="http://purl.obolibrary.org/obo/go#"
+     xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
+     xmlns:NCBITaxon="http://purl.obolibrary.org/obo/NCBITaxon#"
+     xmlns:core="http://purl.obolibrary.org/obo/uberon/core#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:oboInOwl1="ttp://www.geneontology.org/formats/oboInOwl#"
+     xmlns:ace_lexicon="http://attempto.ifi.uzh.ch/ace_lexicon#"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:subsets="http://purl.obolibrary.org/obo/ro/subsets#">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/eating.owl">
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/eating/releases/2018-01-28/eating.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/MF.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ro/releases/2018-01-05b/ro.owl"/>
+        <owl:imports rdf:resource="http://www.w3.org/2006/time#2016"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/bfo/2.0/bfo.owl"/>
+        <rdfs:comment>uc_Eating Ontology</rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000000 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000000">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000017"/>
+        <rdfs:label xml:lang="en">motivation process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000001">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000000"/>
+        <rdfs:label xml:lang="en">eating influenced by external stimuli</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000002">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000000"/>
+        <rdfs:label xml:lang="en">eating influenced by internal stimuli</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000003 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000003">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000000"/>
+        <rdfs:label xml:lang="en">extrinsic motivation process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000016 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000016">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+        <rdfs:label xml:lang="en">behavior process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000017 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000017">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+        <rdfs:label xml:lang="en">mental process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000018 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000018">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000000"/>
+        <rdfs:label xml:lang="en">intrinsic motivation process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000019 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000019">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000016"/>
+        <rdfs:label xml:lang="en">consumption behavior</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000023 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000023">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000016"/>
+        <rdfs:label xml:lang="en">physical food preparement process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000024 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000024">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000023"/>
+        <rdfs:label xml:lang="en">coring process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000025 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000025">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000023"/>
+        <rdfs:label xml:lang="en">cutting process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000026 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000026">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000023"/>
+        <rdfs:label xml:lang="en">dehusking process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000027 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000027">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000023"/>
+        <rdfs:label xml:lang="en">peeling process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000028 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000028">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000023"/>
+        <rdfs:label xml:lang="en">pit removal process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000029 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000029">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000023"/>
+        <rdfs:label xml:lang="en">slicing process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000030 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000030">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000019"/>
+        <rdfs:label xml:lang="en">feeding behavior</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000031 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000031">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000030"/>
+        <rdfs:label xml:lang="en">diet restriction behavior</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000032 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000032">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000030"/>
+        <rdfs:label xml:lang="en">eating behavior</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000033 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000033">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000031"/>
+        <rdfs:label xml:lang="en">calorie restriction behavior</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000034 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000034">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000031"/>
+        <rdfs:label xml:lang="en">diet restriction avoidance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000035 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000035">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000031"/>
+        <rdfs:label xml:lang="en">micronutrient restriction behavior</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000036 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000036">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000031"/>
+        <rdfs:label xml:lang="en">time based restriction diet</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000037 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000037">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000035"/>
+        <rdfs:label xml:lang="en">carboyhdrate restriction behavior</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000038 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000038">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000035"/>
+        <rdfs:label xml:lang="en">fat restriction behavior</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000039 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000039">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000035"/>
+        <rdfs:label xml:lang="en">protein restriction behavior</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000040 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000040">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000032"/>
+        <rdfs:label xml:lang="en">swallowing behavior</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000041 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000041">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000032"/>
+        <rdfs:label xml:lang="en">suckling behavior</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000042 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000042">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000032"/>
+        <rdfs:label xml:lang="en">spitting behavior</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000043 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000043">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000032"/>
+        <rdfs:label xml:lang="en">snacking behavior</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000044 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000044">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000032"/>
+        <rdfs:label xml:lang="en">slurping behavior</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000045 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000045">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000032"/>
+        <rdfs:label xml:lang="en">sipping behavior</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000046 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000046">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000032"/>
+        <rdfs:label xml:lang="en">regulated eating behavior</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000047 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000047">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000032"/>
+        <rdfs:label xml:lang="en">meal eating behavior</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000048 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000048">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000032"/>
+        <rdfs:label xml:lang="en">licking behavior</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000049 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000049">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000032"/>
+        <rdfs:label xml:lang="en">eating session length</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000050 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000050">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000032"/>
+        <rdfs:label xml:lang="en">eating comcomitant with other behavior</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000051 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000051">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000032"/>
+        <rdfs:label xml:lang="en">drinking behavior</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000052 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000052">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000032"/>
+        <rdfs:label xml:lang="en">chewing behavior</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000053 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000053">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000032"/>
+        <rdfs:label xml:lang="en">breastfeeding behavior</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000054 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000054">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000001"/>
+        <rdfs:label xml:lang="en">eating influenced by sound</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000055 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000055">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000034"/>
+        <rdfs:label xml:lang="en">alcohol avoidance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000056 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000056">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000034"/>
+        <rdfs:label xml:lang="en">caffeine voidance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000057 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000057">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000034"/>
+        <rdfs:label xml:lang="en">cruciferous vegetables voidance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000058 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000058">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000034"/>
+        <rdfs:label xml:lang="en">dairy voidance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000059 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000059">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000034"/>
+        <rdfs:label xml:lang="en">spicy food voidance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000060 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000060">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000053"/>
+        <rdfs:label xml:lang="en">breastfeeding influenced by internal stimuli</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000061 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000061">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000053"/>
+        <rdfs:label xml:lang="en">breastfeeding influenced by external stimuli</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000062 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000062">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000060"/>
+        <rdfs:label xml:lang="en">breastfeeding influenced by activity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000063 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000063">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000060"/>
+        <rdfs:label xml:lang="en">breastfeeding influenced by age</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000064 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000064">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000060"/>
+        <rdfs:label xml:lang="en">breastfeeding influenced by FIL</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000065 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000065">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000060"/>
+        <rdfs:label xml:lang="en">breastfeeding influenced by guilt</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000066 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000066">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000060"/>
+        <rdfs:label xml:lang="en">breastfeeding influenced by history of abuse</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000067 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000067">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000060"/>
+        <rdfs:label xml:lang="en">breastfeeding influenced by hypoplasia of mammary gland</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000068 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000068">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000060"/>
+        <rdfs:label xml:lang="en">breastfeeding influenced by lack of milk</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000069 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000069">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000060"/>
+        <rdfs:label xml:lang="en">breastfeeding influenced by mastitis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000070 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000070">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000060"/>
+        <rdfs:label xml:lang="en">breastfeeding influenced by metabolic/disease state</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000071 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000071">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000060"/>
+        <rdfs:label xml:lang="en">breastfeeding influenced by pain</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000072 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000072">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000061"/>
+        <rdfs:label xml:lang="en">breastfeeding influenced by acess</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000073 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000073">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000061"/>
+        <rdfs:label xml:lang="en">breastfeeding influenced by chemotherapy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000074 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000074">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000061"/>
+        <rdfs:label xml:lang="en">breastfeeding influenced by convenience</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000075 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000075">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000061"/>
+        <rdfs:label xml:lang="en">breastfeeding influenced by culture</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000076 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000076">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000061"/>
+        <rdfs:label xml:lang="en">breastfeeding influenced by environment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000077 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000077">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000061"/>
+        <rdfs:label xml:lang="en">breastfeeding influenced by equipment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000078 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000078">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000061"/>
+        <rdfs:label xml:lang="en">breastfeeding influenced by family support</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000079 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000079">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000061"/>
+        <rdfs:label xml:lang="en">breastfeeding influenced by place</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000080 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000080">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000061"/>
+        <rdfs:label xml:lang="en">breastfeeding influenced by radiation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000081 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000081">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000061"/>
+        <rdfs:label xml:lang="en">breastfeeding influenced by separation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000082 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000082">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000061"/>
+        <rdfs:label xml:lang="en">breastfeeding influenced by time</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000083 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000083">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000061"/>
+        <rdfs:label xml:lang="en">breastfeeding influenced by schedule</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000084 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000084">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000072"/>
+        <rdfs:label xml:lang="en">breastfeeding influenced by allowability</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000085 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000085">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000072"/>
+        <rdfs:label xml:lang="en">breastfeeding influenced by economic status</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000086 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000086">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000072"/>
+        <rdfs:label xml:lang="en">breastfeeding influenced by geography</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000087 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000087">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000072"/>
+        <rdfs:label xml:lang="en">breastfeeding influenced by society</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000088 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000088">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000084"/>
+        <rdfs:label xml:lang="en">breastfeeding influenced by age</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000089 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000089">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000084"/>
+        <rdfs:label xml:lang="en">breastfeeding influenced by race</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000090 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000090">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000084"/>
+        <rdfs:label xml:lang="en">breastfeeding influenced by religion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000092 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000092">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000001"/>
+        <rdfs:label xml:lang="en">eating influenced by socio-cultural stimuli</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000093 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000093">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000001"/>
+        <rdfs:label xml:lang="en">eating influenced by smell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000094 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000094">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000001"/>
+        <rdfs:label xml:lang="en">eating influenced by regulation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000095 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000095">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000001"/>
+        <rdfs:label xml:lang="en">eating influenced by media</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000096 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000096">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000001"/>
+        <rdfs:label xml:lang="en">eating influenced by geography</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000097 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000097">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000001"/>
+        <rdfs:label xml:lang="en">eating influenced by food environment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000098 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000098">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000001"/>
+        <rdfs:label xml:lang="en">eating influenced by familial pressure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000099 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000099">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000001"/>
+        <rdfs:label xml:lang="en">eating influenced by appearance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000100 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000100">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000001"/>
+        <rdfs:label xml:lang="en">eating influenced by accessibility</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000101 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000101">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000100"/>
+        <rdfs:label xml:lang="en">eating influenced by transportation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000102 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000102">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000100"/>
+        <rdfs:label xml:lang="en">eating influenced by availability</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000103 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000103">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000100"/>
+        <rdfs:label xml:lang="en">eating influenced by economics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000104 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000104">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000097"/>
+        <rdfs:label xml:lang="en">eating influenced by home environment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000105 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000105">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000097"/>
+        <rdfs:label xml:lang="en">eating influenced by social environment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000106 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000106">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000097"/>
+        <rdfs:label xml:lang="en">eating influenced by school environment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000107 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000107">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000097"/>
+        <rdfs:label xml:lang="en">eating influenced by work environment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000108 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000108">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000095"/>
+        <rdfs:label xml:lang="en">eating influenced by broadcast media</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000109 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000109">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000095"/>
+        <rdfs:label xml:lang="en">eating influenced by mass media</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000111 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000111">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000095"/>
+        <rdfs:label xml:lang="en">eating influenced by print media</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000112 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000112">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000095"/>
+        <rdfs:label xml:lang="en">eating influenced by social media</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000113 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000113">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000112"/>
+        <rdfs:label xml:lang="en">eating influenced by Facebook</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000114 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000114">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000112"/>
+        <rdfs:label xml:lang="en">eating influenced by Instagram</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000115 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000115">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000112"/>
+        <rdfs:label xml:lang="en">eating influenced by Pinterest</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000116 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000116">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000112"/>
+        <rdfs:label xml:lang="en">eating influenced by Snapchat</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000117 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000117">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000112"/>
+        <rdfs:label xml:lang="en">eating influenced by Tumblr</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000118 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000118">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000112"/>
+        <rdfs:label xml:lang="en">eating influenced by Twitter</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000119 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000119">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000112"/>
+        <rdfs:label xml:lang="en">eating influenced by Youtube</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000120 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000120">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000092"/>
+        <rdfs:label xml:lang="en">eating influenced by culture</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000121 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000121">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000092"/>
+        <rdfs:label xml:lang="en">eating influenced by peer pressure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000122 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000122">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000050"/>
+        <rdfs:label xml:lang="en">eating while bathing behavior</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000123 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000123">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000050"/>
+        <rdfs:label xml:lang="en">eating while biking behavior</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000124 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000124">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000050"/>
+        <rdfs:label xml:lang="en">eating while crying behavior</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000125 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000125">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000050"/>
+        <rdfs:label xml:lang="en">eating while defacating behavior</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000127 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000127">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000050"/>
+        <rdfs:label xml:lang="en">eating while driving behavior</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000128 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000128">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000050"/>
+        <rdfs:label xml:lang="en">eating while exercising behavior</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000129 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000129">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000050"/>
+        <rdfs:label xml:lang="en">eating while laughing behavior</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000130 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000130">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000050"/>
+        <rdfs:label xml:lang="en">eating while laying behavior</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000131 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000131">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000050"/>
+        <rdfs:label xml:lang="en">eating while lounging behavior</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000133 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000133">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000050"/>
+        <rdfs:label xml:lang="en">eating while reading behavior</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000134 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000134">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000050"/>
+        <rdfs:label xml:lang="en">eating while running behavior</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000135 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000135">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000050"/>
+        <rdfs:label xml:lang="en">eating while seated behavior</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000136 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000136">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000050"/>
+        <rdfs:label xml:lang="en">eating while studying behavior</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000137 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000137">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000050"/>
+        <rdfs:label xml:lang="en">eating while swimming behavior</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000138 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000138">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000050"/>
+        <rdfs:label xml:lang="en">eating while talking behavior</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000139 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000139">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000050"/>
+        <rdfs:label xml:lang="en">eating while walking behavior</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000140 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000140">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000050"/>
+        <rdfs:label xml:lang="en">eating while working behavior</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000141 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000141">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000050"/>
+        <rdfs:label xml:lang="en">eating while yelling behavior</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000142 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000142">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000049"/>
+        <rdfs:label xml:lang="en">time spent chewing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000143 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000143">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000049"/>
+        <rdfs:label xml:lang="en">time spent eating course</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000144 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000144">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000049"/>
+        <rdfs:label xml:lang="en">time spent eating meal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000145 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000145">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000047"/>
+        <rdfs:label xml:lang="en">celebratory meal behavior</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000146 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000146">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000047"/>
+        <rdfs:label xml:lang="en">compensatory meal behavior</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000147 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000147">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000047"/>
+        <rdfs:label xml:lang="en">feasting meal behavior</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000148 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000148">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000047"/>
+        <rdfs:label xml:lang="en">health promoting meal behavior</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000149 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000149">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000047"/>
+        <rdfs:label xml:lang="en">holiday meal behavior</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000150 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000150">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000047"/>
+        <rdfs:label xml:lang="en">post-workout meal behavior</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000151 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000151">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000047"/>
+        <rdfs:label xml:lang="en">religious meal behavior</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000152 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000152">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000047"/>
+        <rdfs:label xml:lang="en">social meal behavior</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000153 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000153">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000152"/>
+        <rdfs:label xml:lang="en">familial meal behavior</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000154 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000154">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000152"/>
+        <rdfs:label xml:lang="en">friend social gathering meal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000155 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000155">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000149"/>
+        <rdfs:label xml:lang="en">religious holiday meals</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000156 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000156">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000149"/>
+        <rdfs:label xml:lang="en">secular holiday meals</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000158 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000158">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000155"/>
+        <rdfs:label xml:lang="en">Christian holiday meals</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000159 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000159">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000155"/>
+        <rdfs:label xml:lang="en">Catholic holiday meals</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000160 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000160">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000155"/>
+        <rdfs:label xml:lang="en">Hindu holiday meals</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000161 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000161">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000155"/>
+        <rdfs:label xml:lang="en">Jewish holiday meals</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000162 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000162">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000155"/>
+        <rdfs:label xml:lang="en">Chinese holiday meals</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000163 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000163">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000155"/>
+        <rdfs:label xml:lang="en">Muslim holiday meals</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000164 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000164">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000162"/>
+        <rdfs:label xml:lang="en">Chinese New Year holiday meal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000165 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000165">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000158"/>
+        <rdfs:label xml:lang="en">Christmas holiday meal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000166 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000166">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000158"/>
+        <rdfs:label xml:lang="en">Easter holiday meal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000167 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000167">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000160"/>
+        <rdfs:label xml:lang="en">Diwali holiday meal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000168 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000168">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000160"/>
+        <rdfs:label xml:lang="en">Ganesh Chaturthi holiday meal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000169 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000169">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000160"/>
+        <rdfs:label xml:lang="en">Holi holiday meal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000170 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000170">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000161"/>
+        <rdfs:label xml:lang="en">Hanukkah holiday meal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000171 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000171">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000161"/>
+        <rdfs:label xml:lang="en">Passover holiday meal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000172 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000172">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000161"/>
+        <rdfs:label xml:lang="en">Rosh Hashanah holiday meal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000173 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000173">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000161"/>
+        <rdfs:label xml:lang="en">Shabbat holiday meal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000174 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000174">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000161"/>
+        <rdfs:label xml:lang="en">Yom Kippur holiday meal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000175 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000175">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000163"/>
+        <rdfs:label xml:lang="en">Eid holiday meal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000176 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000176">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000163"/>
+        <rdfs:label xml:lang="en">Islamic New Year holiday meal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000178 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000178">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000156"/>
+        <rdfs:label xml:lang="en">Father&apos;s Day holiday meal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000179 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000179">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000156"/>
+        <rdfs:label xml:lang="en">Labor Day holiday meal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000180 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000180">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000156"/>
+        <rdfs:label xml:lang="en">Mother&apos;s Day holiday meal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000181 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000181">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000156"/>
+        <rdfs:label xml:lang="en">New Year celebration holiday meal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000182 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000182">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000156"/>
+        <rdfs:label xml:lang="en">Saint Patrick&apos;s Day holiday meal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000183 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000183">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000156"/>
+        <rdfs:label xml:lang="en">Thanksgiving holiday meal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000184 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000184">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000156"/>
+        <rdfs:label xml:lang="en">Fourth of July holiday meal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000185 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000185">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000145"/>
+        <rdfs:label xml:lang="en">anniversary celebratory meal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000186 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000186">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000145"/>
+        <rdfs:label xml:lang="en">birthday celebratory meal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000187 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000187">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000145"/>
+        <rdfs:label xml:lang="en">graduation celebratory meal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000188 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000188">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000145"/>
+        <rdfs:label xml:lang="en">personal occasion celebratory meal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000189 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000189">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000145"/>
+        <rdfs:label xml:lang="en">promotion celebratory meal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000190 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000190">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000145"/>
+        <rdfs:label xml:lang="en">wedding celebratory meal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000191 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000191">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000146"/>
+        <rdfs:label xml:lang="en">compensation for stress meal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000192 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000192">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000146"/>
+        <rdfs:label xml:lang="en">compensation for sleep meal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000193 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000193">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000146"/>
+        <rdfs:label xml:lang="en">compensation for physical activity meal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000194 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000194">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000146"/>
+        <rdfs:label xml:lang="en">compensation for other foods consumed meal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000195 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000195">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000147"/>
+        <rdfs:label xml:lang="en">agricultural feast meal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000196 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000196">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000147"/>
+        <rdfs:label xml:lang="en">military feast meal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000197 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000197">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000147"/>
+        <rdfs:label xml:lang="en">religious feast meal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000198 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000198">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000147"/>
+        <rdfs:label xml:lang="en">socio-cultural feast meal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000199 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000199">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000148"/>
+        <rdfs:label xml:lang="en">alkaline diet</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000200 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000200">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000148"/>
+        <rdfs:label xml:lang="en">atkins diet</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000201 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000201">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000148"/>
+        <rdfs:label xml:lang="en">cleansing diet</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000202 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000202">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000201"/>
+        <rdfs:label xml:lang="en">fasting cleanse</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000203 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000203">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000201"/>
+        <rdfs:label xml:lang="en">juice cleanse</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000204 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000204">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000201"/>
+        <rdfs:label xml:lang="en">master cleanse</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000205 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000205">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000201"/>
+        <rdfs:label xml:lang="en">raw food cleanse</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000206 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000206">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000201"/>
+        <rdfs:label xml:lang="en">water cleanse</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000207 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000207">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000148"/>
+        <rdfs:label xml:lang="en">detox diet</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000208 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000208">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000148"/>
+        <rdfs:label xml:lang="en">gluten-free diet</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000209 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000209">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000148"/>
+        <rdfs:label xml:lang="en">high protein diet</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000210 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000210">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000148"/>
+        <rdfs:label xml:lang="en">keto diet</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000211 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000211">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000148"/>
+        <rdfs:label xml:lang="en">low calorie diet</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000213 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000213">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000211"/>
+        <rdfs:label xml:lang="en">hacker&apos;s diet</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000214 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000214">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000211"/>
+        <rdfs:label xml:lang="en">Jenny Craig diet</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000215 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000215">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000211"/>
+        <rdfs:label xml:lang="en">Nutrisystem diet</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000216 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000216">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000211"/>
+        <rdfs:label xml:lang="en">Weight Watchers diet</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000217 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000217">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000148"/>
+        <rdfs:label xml:lang="en">paleo diet</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000218 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000218">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000148"/>
+        <rdfs:label xml:lang="en">semi-vegetarian diet</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000219 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000219">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000218"/>
+        <rdfs:label xml:lang="en">flexitarian</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000220 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000220">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000218"/>
+        <rdfs:label xml:lang="en">kangatarian</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000221 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000221">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000218"/>
+        <rdfs:label xml:lang="en">pescetarian</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000222 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000222">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000218"/>
+        <rdfs:label xml:lang="en">plant-based</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000223 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000223">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000148"/>
+        <rdfs:label xml:lang="en">south beach diet</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000224 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000224">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000148"/>
+        <rdfs:label xml:lang="en">vegan diet</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000225 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000225">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000148"/>
+        <rdfs:label xml:lang="en">vegetarian diet</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000226 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000226">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000148"/>
+        <rdfs:label xml:lang="en">weight influencing diet</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000227 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000227">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000046"/>
+        <rdfs:label xml:lang="en">ethically regulated eating behavior</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000228 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000228">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000046"/>
+        <rdfs:label xml:lang="en">health-oriented eating behavior</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000229 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000229">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000046"/>
+        <rdfs:label xml:lang="en">image oriented eating behavior</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000230 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000230">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000046"/>
+        <rdfs:label xml:lang="en">performance oriented eating behavior</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000231 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000231">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000046"/>
+        <rdfs:label xml:lang="en">religiously regulated eating behavior</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000232 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000232">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000227"/>
+        <rdfs:label xml:lang="en">pescetarian eating behavior</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000233 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000233">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000227"/>
+        <rdfs:label xml:lang="en">plant-based eating behavior</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000234 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000234">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000227"/>
+        <rdfs:label xml:lang="en">vegan eating behavior</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000235 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000235">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000227"/>
+        <rdfs:label xml:lang="en">vegetarian eating behavior</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000236 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000236">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000231"/>
+        <rdfs:label xml:lang="en">edenic eating behavior</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000237 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000237">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000231"/>
+        <rdfs:label xml:lang="en">halal eating behavior</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000238 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000238">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000231"/>
+        <rdfs:label xml:lang="en">jane eating behavior</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000239 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000239">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000231"/>
+        <rdfs:label xml:lang="en">kosher eating behavior</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000240 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000240">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000231"/>
+        <rdfs:label xml:lang="en">lacto-vegetarian eating behavior</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000241 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000241">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000046"/>
+        <rdfs:label xml:lang="en">self-regulated eating behavior</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000242 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000242">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000241"/>
+        <rdfs:label xml:lang="en">calorie counting behavior</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000243 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000243">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000241"/>
+        <rdfs:label xml:lang="en">physiologically self-regulated eating behavior</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000244 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000244">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000241"/>
+        <rdfs:label xml:lang="en">psychological eating behavior</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000245 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000245">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000043"/>
+        <rdfs:label xml:lang="en">after school snacking behavior</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000246 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000246">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000043"/>
+        <rdfs:label xml:lang="en">late night snacking behavior</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000247 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000247">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000043"/>
+        <rdfs:label xml:lang="en">mid-day snacking behavior</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000248 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000248">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/OWLClass00000000000000000043"/>
+        <rdfs:label xml:lang="en">morning snacking behavior</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass00000289 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass00000289">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000283"/>
+        <rdfs:label xml:lang="en">two meals/day</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass000010 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass000010">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass00009"/>
+        <rdfs:label xml:lang="en">fishing process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass000011 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass000011">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass00009"/>
+        <rdfs:label xml:lang="en">gathering process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass000012 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass000012">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass00009"/>
+        <rdfs:label xml:lang="en">gleaning process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass000013 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass000013">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass00009"/>
+        <rdfs:label xml:lang="en">hunting process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass000014 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass000014">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass00009"/>
+        <rdfs:label xml:lang="en">purchasing process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass000015 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass000015">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass000014"/>
+        <rdfs:label xml:lang="en">shopping process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass000020 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass000020">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass00009"/>
+        <rdfs:label xml:lang="en">food foraging process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass000021 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass000021">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass00009"/>
+        <rdfs:label xml:lang="en">horticulture process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass000022 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass000022">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass00009"/>
+        <rdfs:label xml:lang="en">pastoralism process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000249 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000249">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass00005"/>
+        <rdfs:label xml:lang="en">digestion process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000250 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000250">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass00005"/>
+        <rdfs:label xml:lang="en">involuntary food consumption</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000251 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000251">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass00005"/>
+        <rdfs:label xml:lang="en">voluntary food consumption</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000252 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000252">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000249"/>
+        <rdfs:label xml:lang="en">chemical food digestion process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000253 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000253">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000249"/>
+        <rdfs:label xml:lang="en">mechanical food digestion process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000254 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000254">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000253"/>
+        <rdfs:label xml:lang="en">chewing process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000255 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000255">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass00006"/>
+        <rdfs:label xml:lang="en">auto device recording</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000257 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000257">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass00006"/>
+        <rdfs:label xml:lang="en">historical recall measurement method</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000258 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000258">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass00006"/>
+        <rdfs:label xml:lang="en">measurement method data types</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000259 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000259">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass00006"/>
+        <rdfs:label xml:lang="en">realtime logging measurement method</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000260 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000260">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass00006"/>
+        <rdfs:label xml:lang="en">realtime monitoring measurement method</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000261 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000261">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000259"/>
+        <rdfs:label xml:lang="en">electronic/paper diary</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000262 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000262">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000259"/>
+        <rdfs:label xml:lang="en">pictured enhanced log</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000263 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000263">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000258"/>
+        <rdfs:label xml:lang="en">human log data type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000264 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000264">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000258"/>
+        <rdfs:label xml:lang="en">image data type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000265 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000265">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000258"/>
+        <rdfs:label xml:lang="en">length of time data type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000266 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000266">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000258"/>
+        <rdfs:label xml:lang="en">sound data type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000267 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000267">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000258"/>
+        <rdfs:label xml:lang="en">spectrographic data type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000268 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000268">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000258"/>
+        <rdfs:label xml:lang="en">time of day data type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000269 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000269">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000258"/>
+        <rdfs:label xml:lang="en">video data type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000270 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000270">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000263"/>
+        <rdfs:label xml:lang="en">calorie log data type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000271 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000271">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000263"/>
+        <rdfs:label xml:lang="en">description log data type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000272 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000272">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000263"/>
+        <rdfs:label xml:lang="en">weight log data type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000273 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000273">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000266"/>
+        <rdfs:label xml:lang="en">jaw sound recording device data type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000274 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000274">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000255"/>
+        <rdfs:label xml:lang="en">physiological recording measurement methods</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000275 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000275">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000255"/>
+        <rdfs:label xml:lang="en">utensil enhanced recording measurement method</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000276 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000276">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000255"/>
+        <rdfs:label xml:lang="en">video monitor measurement method</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000277 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000277">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000257"/>
+        <rdfs:label xml:lang="en">24 hour dietary recall measurement method</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000278 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000278">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000257"/>
+        <rdfs:label xml:lang="en">food frequency questionnaire measurement method</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000279 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000279">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass00007"/>
+        <rdfs:label xml:lang="en">food consumption frequency</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000280 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000280">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000279"/>
+        <rdfs:label xml:lang="en">consumption of fast food frequency</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000281 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000281">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000279"/>
+        <rdfs:label xml:lang="en">consumption of frozen food frequency</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000282 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000282">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000279"/>
+        <rdfs:label xml:lang="en">consumption of home-cooked meal frequency</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000283 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000283">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000279"/>
+        <rdfs:label xml:lang="en">number of meals eaten</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000284 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000284">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000279"/>
+        <rdfs:label xml:lang="en">consumption of fried food frequency</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000285 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000285">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000279"/>
+        <rdfs:label xml:lang="en">consumption of red meat frequency</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000286 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000286">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000283"/>
+        <rdfs:label xml:lang="en">five meals/day</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000287 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000287">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000283"/>
+        <rdfs:label xml:lang="en">four meals/day</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000288 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000288">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000283"/>
+        <rdfs:label xml:lang="en">three meals/day</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000290 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000290">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000283"/>
+        <rdfs:label xml:lang="en">one meal/day</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000291 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000291">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <rdfs:label xml:lang="en">production process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000292 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000292">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000291"/>
+        <rdfs:label xml:lang="en">food production process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000293 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000293">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000292"/>
+        <rdfs:label xml:lang="en">aquaculture process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000294 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000294">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000292"/>
+        <rdfs:label xml:lang="en">cultivation process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000295 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000295">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000294"/>
+        <rdfs:label xml:lang="en">farming process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000296 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000296">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000295"/>
+        <rdfs:label xml:lang="en">co-operative farming process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000297 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000297">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000295"/>
+        <rdfs:label xml:lang="en">commercial farming process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000298 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000298">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000295"/>
+        <rdfs:label xml:lang="en">crop rotation process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000299 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000299">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000295"/>
+        <rdfs:label xml:lang="en">dairy farming process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000300 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000300">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000295"/>
+        <rdfs:label xml:lang="en">gardening process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000301 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000301">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000295"/>
+        <rdfs:label xml:lang="en">harvesting process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000302 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000302">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000295"/>
+        <rdfs:label xml:lang="en">irrigation farming process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000303 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000303">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000295"/>
+        <rdfs:label xml:lang="en">ley farming process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000304 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000304">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000295"/>
+        <rdfs:label xml:lang="en">plantation farming process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000305 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000305">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000295"/>
+        <rdfs:label xml:lang="en">subsistence farming process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000306 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000306">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000297"/>
+        <rdfs:label xml:lang="en">commercial grain farming process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000307 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000307">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000297"/>
+        <rdfs:label xml:lang="en">extensive commercial farming process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000308 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000308">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000297"/>
+        <rdfs:label xml:lang="en">intensive commercial farming process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000309 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000309">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000304"/>
+        <rdfs:label xml:lang="en">forestry farming process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000310 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000310">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass0000305"/>
+        <rdfs:label xml:lang="en">shifting cultivation process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass00004 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass00004">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <rdfs:label xml:lang="en">acquisition process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass00005 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass00005">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <rdfs:label xml:lang="en">consumption process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass00006 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass00006">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <rdfs:label xml:lang="en">food consumption measurement methods</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass00007 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass00007">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <rdfs:label xml:lang="en">food consumption time component</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass00008 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass00008">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass00004"/>
+        <rdfs:label xml:lang="en">food acquisition process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass00009 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass00009">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/eating.owl/uc_EatingClass00008"/>
+        <rdfs:label xml:lang="en">food procurement process</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.3.20160319-0906) https://github.com/owlcs/owlapi -->
+
